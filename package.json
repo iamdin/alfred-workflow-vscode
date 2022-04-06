@@ -1,0 +1,17 @@
+{
+  "name": "alfred-workflow-codef",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "globby": "^13.1.1",
+    "minimist": "^1.2.6",
+    "zx": "^6.0.7"
+  }
+}
