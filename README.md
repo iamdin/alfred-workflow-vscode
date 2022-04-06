@@ -24,6 +24,12 @@ Note that the Alfred Powerpack is required to use workflows.
 
 ## Usage
 
+
+First of all, recommend you set workflow environment variables for better search:
+
+Open the environment variables setting dialog of VS Code workflow, and configure
+- CODEDIR_PATH, `required`, `default=$USER`, Directory path of project folders
+
 ### Search & Open
 
 1. Use the keyword `codef` to trigger the workflow
