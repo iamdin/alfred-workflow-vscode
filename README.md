@@ -11,11 +11,17 @@ An Alfred 4 workflow for Visual Studio Code Command Line Interface (CLI).
 
 ## Installation
 
-1. Download the workflow
+1. Install package
 
-2. Double click the .alfredworkflow file to install
+```shell
+$ npm install alfred-workflow-vscode -g
+```
 
-Note that the Alfred Powerpack is required to use workflows.
+2. Download the workflow
+
+3. Double click the .alfredworkflow file to install
+
+> Note that the Alfred Powerpack is required to use workflows.
 
 ## Requirement
 
@@ -24,10 +30,10 @@ Note that the Alfred Powerpack is required to use workflows.
 
 ## Usage
 
-
 First of all, recommend you set workflow environment variables for better search:
 
 Open the environment variables setting dialog of VS Code workflow, and configure
+
 - CODEDIR_PATH, `required`, `default=$USER`, Directory path of project folders
 
 ### Search & Open
