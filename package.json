@@ -1,15 +1,18 @@
 {
-  "name": "alfred-workflow-codef",
-  "version": "1.0.0",
+  "name": "alfred-workflow-vscode",
+  "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.mjs",
+  "bin": {
+    "alfred-workflow-vscode": "index.mjs"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "globby": "^13.1.1",
     "minimist": "^1.2.6",
     "zx": "^6.0.7"
