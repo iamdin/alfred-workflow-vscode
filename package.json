@@ -1,19 +1,29 @@
 {
-  "name": "alfred-workflow-vscode",
-  "version": "0.2.0",
-  "description": "",
+  "name": "@amifed/alfred-workflow-vscode",
+  "version": "0.1.1",
+  "description": "alfred workflow for vscode",
   "main": "index.mjs",
-  "bin": {
-    "alfred-workflow-vscode": "index.mjs"
-  },
+  "module": "index.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amifed/alfred-workflow-vscode.git"
+  },
+  "keywords": [
+    "alfred",
+    "workflow",
+    "vscode"
+  ],
+  "author": "amifed",
+  "license": "MIT",
   "dependencies": {
     "globby": "^13.1.1",
     "minimist": "^1.2.6"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/amifed/alfred-workflow-vscode/issues"
+  },
+  "homepage": "https://github.com/amifed/alfred-workflow-vscode#readme"
 }
