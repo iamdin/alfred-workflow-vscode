@@ -1,18 +1,26 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@amifed/alfred-workflow-vscode': ^0.2.1
   esbuild: ^0.14.38
   fast-glob: ^3.2.11
   minimist: ^1.2.6
   zx: ^6.1.0
 
 devDependencies:
+  '@amifed/alfred-workflow-vscode': 0.2.1
   esbuild: 0.14.38
   fast-glob: 3.2.11
   minimist: 1.2.6
   zx: 6.1.0
 
 packages:
+
+  /@amifed/alfred-workflow-vscode/0.2.1:
+    resolution: {integrity: sha512-xWbYa5m6piiN5D/YTSTH8OpXmUa9TgctLllXQGQkSJpUm6V0p6enIDYSKxKC0BOG5OBjNwjqAG2KIAyPnBqHlQ==}
+    engines: {node: ^14.13.1 || >=16.0.0}
+    hasBin: true
+    dev: true
 
   /@nodelib/fs.scandir/2.1.5:
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}

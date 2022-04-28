@@ -25,7 +25,7 @@ $ npm install alfred-workflow-vscode -g
 
 ## Requirement
 
-- Nodejs
+- Nodejs>=14
 - Visual Studio Code Command Line
 
 ## Usage
