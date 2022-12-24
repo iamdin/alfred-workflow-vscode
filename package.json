@@ -1,6 +1,6 @@
 {
   "name": "@iamdin/alfred-workflow-vscode",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "alfred workflow for vscode",
   "type": "module",
   "bin": {
