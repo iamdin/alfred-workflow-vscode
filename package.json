@@ -1,5 +1,5 @@
 {
-  "name": "@amifed/alfred-workflow-vscode",
+  "name": "@iamdin/alfred-workflow-vscode",
   "version": "0.2.1",
   "description": "alfred workflow for vscode",
   "type": "module",
@@ -19,14 +19,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amifed/alfred-workflow-vscode.git"
+    "url": "git+https://github.com/iamdin/alfred-workflow-vscode.git"
   },
   "keywords": [
     "alfred",
     "workflow",
     "vscode"
   ],
-  "author": "amifed",
+  "author": "iamdin",
   "license": "MIT",
   "devDependencies": {
     "esbuild": "^0.14.38",

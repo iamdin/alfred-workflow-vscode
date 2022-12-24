@@ -25,7 +25,7 @@ npm install @amifed/alfred-workflow-vscode -g
 
 ## Requirement
 
-- Nodejs>=14
+- Nodejs >= 14.17.1
 - Visual Studio Code Command Line
 
 ## Usage
