@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-const parseArgs = require('minimist')
-const glob = require('fast-glob')
+import parseArgs from 'minimist'
+import glob from 'fast-glob'
 
 const CODEDIR_PATH = process.env.CODEDIR_PATH ?? process.env.HOME
 const argv = parseArgs(process.argv.slice(2))
