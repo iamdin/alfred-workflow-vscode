@@ -14,7 +14,7 @@ An Alfred 4 workflow for Visual Studio Code Command Line Interface (CLI).
 1. Install package
 
 ```shell
-npm install @amifed/alfred-workflow-vscode -g
+npm install alfred-workflow-vscode -g
 ```
 
 2. Download the workflow

@@ -1,5 +1,5 @@
 {
-  "name": "@iamdin/alfred-workflow-vscode",
+  "name": "alfred-workflow-vscode",
   "version": "0.2.3",
   "description": "alfred workflow for vscode",
   "type": "module",
@@ -7,16 +7,12 @@
     "alfred-workflow-vscode": "outfile.cjs"
   },
   "files": [
-    "outfile.cjs"
+    "bin"
   ],
   "engines": {
     "node": "^14.13.1 || >=16.0.0"
   },
-  "scripts": {
-    "prepublish": "zx ./scripts/prepublish.mjs",
-    "build": "zx ./scripts/build.mjs",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/iamdin/alfred-workflow-vscode.git"
@@ -31,9 +27,11 @@
   "devDependencies": {
     "bumpp": "^8.2.1",
     "esbuild": "^0.14.38",
-    "fast-glob": "^3.2.11",
-    "minimist": "^1.2.6",
     "zx": "^6.1.0"
+  },
+  "dependencies": {
+    "fast-glob": "^3.2.11",
+    "minimist": "^1.2.6"
   },
   "bugs": {
     "url": "https://github.com/amifed/alfred-workflow-vscode/issues"
