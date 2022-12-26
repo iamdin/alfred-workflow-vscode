@@ -4,7 +4,7 @@
   "description": "alfred workflow for vscode",
   "type": "module",
   "bin": {
-    "alfred-workflow-vscode": "outfile.cjs"
+    "alfred-workflow-vscode": "bin/index.js"
   },
   "files": [
     "bin"
