@@ -1,6 +1,6 @@
 {
   "name": "alfred-workflow-vscode",
-  "version": "0.2.17",
+  "version": "0.2.18",
   "description": "alfred workflow for vscode",
   "packageManager": "pnpm@7.3.0",
   "type": "module",
