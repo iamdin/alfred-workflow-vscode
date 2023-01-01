@@ -16,7 +16,7 @@
   "scripts": {
     "dev": "unbuild --stub",
     "prepublish": "unbuild",
-    "release": "bumpp && npm publish"
+    "update:version": "bumpp"
   },
   "repository": {
     "type": "git",
