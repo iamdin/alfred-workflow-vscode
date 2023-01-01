@@ -1,0 +1,11 @@
+#!/bin/bash
+PKG_NAME="alfred-workflow-vscode"
+
+check_install=`npm list -g | grep $PKG_NAME`
+
+if ! [[ $check_install =~ $PKG_NAME ]]; then
+  # install
+  npm install $PKG_NAME@latest -g
+fi
+
+alfred-workflow-vscode $@

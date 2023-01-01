@@ -4,15 +4,19 @@
   "description": "alfred workflow for vscode",
   "type": "module",
   "bin": {
-    "alfred-workflow-vscode": "bin/index.mjs"
+    "alfred-workflow-vscode": "bin/index.js"
   },
   "files": [
-    "bin"
+    "bin",
+    "dist"
   ],
   "engines": {
     "node": "^14.13.1 || >=16.0.0"
   },
-  "scripts": {},
+  "scripts": {
+    "dev": "unbuild --stub",
+    "prepublish": "unbuild"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/iamdin/alfred-workflow-vscode.git"
@@ -25,9 +29,9 @@
   "author": "iamdin",
   "license": "MIT",
   "devDependencies": {
+    "@types/minimist": "^1.2.2",
     "bumpp": "^8.2.1",
-    "esbuild": "^0.14.38",
-    "zx": "^6.1.0"
+    "unbuild": "^1.0.2"
   },
   "dependencies": {
     "fast-glob": "^3.2.11",
