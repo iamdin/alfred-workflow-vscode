@@ -16,7 +16,7 @@
   },
   "scripts": {
     "dev": "unbuild --stub",
-    "prepublish": "unbuild",
+    "build": "unbuild",
     "update:version": "bumpp"
   },
   "repository": {
