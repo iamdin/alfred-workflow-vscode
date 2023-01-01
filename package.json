@@ -27,7 +27,7 @@
   "devDependencies": {
     "bumpp": "^8.2.1",
     "esbuild": "^0.14.38",
-    "zx": "^6.1.0"
+    "zx": "^7.0.0"
   },
   "dependencies": {
     "fast-glob": "^3.2.11",
