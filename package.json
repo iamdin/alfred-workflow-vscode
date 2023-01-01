@@ -1,6 +1,6 @@
 {
   "name": "alfred-workflow-vscode",
-  "version": "0.2.10",
+  "version": "0.2.11",
   "description": "alfred workflow for vscode",
   "type": "module",
   "bin": {
